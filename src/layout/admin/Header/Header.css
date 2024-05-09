@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding: 20px;
+}
+.title-head{
+    display: flex;
+    h5{
+        font-size: 18px;
+    }
+}
+ul{
+    display: flex;
+    gap: 25px;
+    li{
+        font-size: 17px;
+    }
+}
+.left-header{
+    display: flex;
+    gap: 40px
+    ;
+}
+.right-header{
+    display: flex;
+    gap: 12px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 6px;
+    align-items: center;
+}   
+.sifir{
+    border: 1px solid black;
+    padding: 3px 6px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
