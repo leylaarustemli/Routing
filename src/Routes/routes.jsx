@@ -5,6 +5,7 @@ import AdminRoot from "../pages/admin/AdminRoot"
 import SiteRoot from "../pages/site/SiteRoot"
 import Error from "../pages/site/Error/Error"
 import Add from "../pages/admin/Add/Add"
+import Detail from "../pages/site/Details/Detail"
 
 
 const ROUTES=[
@@ -16,6 +17,9 @@ element:<SiteRoot/>,
 children:[{
     path:"",
     element: <Home />
+},{
+    path:"/details/:id",
+    element:<Detail/>
 }
 ,{
     path:"*",

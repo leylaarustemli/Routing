@@ -1,0 +1,14 @@
+.details{
+    height: 560px;
+    img{
+        width: 300px;
+    }
+    .container{
+        gap: 80px;
+    }
+    .right-detail{
+        border: 2px solid rgb(189, 3, 173);
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
